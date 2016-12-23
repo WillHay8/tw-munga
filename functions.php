@@ -1,5 +1,5 @@
 <?php
-function tw-munga_setup(){
+function twmunga_setup(){
  	add_theme_support('title-tag');
 
  	add_theme_support('post-thumbnails');
@@ -22,4 +22,4 @@ function tw-munga_setup(){
 	) );
  }
 
- add_action('after_setup_theme', 'tw-munga_setup');
+ add_action('after_setup_theme', 'twmunga_setup');

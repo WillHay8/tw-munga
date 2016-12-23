@@ -10,7 +10,7 @@
 		<div class="site-wrapper">
 			<header id="masthead" class="site-header" role="banner">
 				<div class="logo-cont">
-					<img src="wp-content/uploads/2016/12/tunbridge-wells-munga-logo.png"/>
+					<img src="wp-content/uploads/2016/12/Tunbridge-Wells-Munga-logo-blue.png"/>
 				</div>
 				<div class="site-title-cont">
 					<div class="site-title">Tunbridge Wells<br/>Model United Nations General Assembley</div>
