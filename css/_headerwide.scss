@@ -1,0 +1,36 @@
+.app-bar {
+    .menu-toggle-cont {
+        display: none;
+    }
+}
+
+.site-header-menu {
+        display: inline-block;
+        position: absolute;
+        margin: 10px 5px 0 auto;
+        width: initial;
+        top: 0;
+        right: 0;
+        box-shadow: none;
+        z-index: 2;
+        background-color: transparent;
+
+        ul {
+            float: left;
+            li {
+                display: inline-block;
+                float: left;
+                width: initial;
+                border: none;
+                border-right: 1px solid $light-blue;
+                font-size: 1em;
+                a {
+                    width: initial;
+                    padding: 0.3em;
+                }
+            }
+            li:last-child {
+                border-right: none;
+            }
+        }  
+    }

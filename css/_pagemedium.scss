@@ -1,0 +1,41 @@
+.site-wrapper {
+    padding-bottom: 20.5vw;
+}
+
+.page-wrapper {
+    .sidebar-cont {
+        column-count: 2;
+        column-gap: 1em;
+        li {
+            width: 100%;
+            height: auto;
+            margin: 0.5em 0;
+            display: inline-block;
+        }
+    }
+
+
+}
+
+    //about
+.page {
+    p img {
+        width: 50%;
+        float: left;
+        margin: 0.5em;
+        display: inline-block;
+        position: relative;
+    }
+    .page-wrapper {
+        margin-bottom: 5vw;
+    }
+}
+
+.contact {
+    .contact-details, .contact-photo {
+        display: table-cell;
+        width: 48%;
+        vertical-align: middle;
+    }
+
+}

@@ -1,0 +1,50 @@
+.site-wrapper {
+    padding-bottom: 210px;
+}
+
+.app-bar-contents, .page-wrapper, .footer-contents{
+    width: 890px;
+    margin: 10px auto 15px auto;
+}
+
+.app-bar .site-title-cont .site-title {
+    font-size: 1.5em;
+}
+
+.site-header-menu {
+    right: 50%;
+    margin-right: -440px;
+}
+
+.header-img-cont {
+    margin-top: -18px;
+}
+
+.site-header-menu {
+    right: 50%;
+    margin-right: -440px;
+}
+
+.page .page-wrapper {
+    margin-bottom: 15px;
+}
+
+.home .content-area {
+    display: inline-block;
+    vertical-align: top;
+    width: 68%;
+}
+
+.home .sidebar-cont {
+    display: inline-block;
+    width: 28%;
+    column-count: 1;
+}
+
+.other-page {
+    box-shadow: 1px 1px 12px rgba(0,0,0,0.5);
+
+    .site-main {
+        padding: 10px 50px;
+    }
+}

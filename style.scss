@@ -1,0 +1,74 @@
+$white: #fff;
+$light-blue: #4f91cd;
+$blue: #3882c7;
+$dark-blue: #03A;
+$black: #000;
+$grey: #555;
+$light-grey: #BBB;
+
+// globals
+html, body {
+    background-color: $white;
+    font-family: tahoma, sans-serif;
+    margin: 0;
+    margin-top: 0 !important;
+}
+
+.site-wrapper {
+    position: relative;
+    min-height: 100%;
+    padding-bottom: 148px;
+}
+
+a {
+    color: $light-blue;
+}
+a:hover, .site-header-menu ul li a:hover {
+    color: $dark-blue;
+}
+
+li{
+    list-style-type: none;
+}
+
+@import 'css/header';
+
+@media (min-width: 600px) {
+    @import 'css/headermedium';
+}
+
+@media (min-width: 800px) {
+    @import 'css/headerwide';
+}
+
+@import 'css/page';
+
+@media (min-width: 700px) {
+    @import 'css/pagemedium';
+    .video-cont {
+        text-align: center;
+        padding-bottom: 378px;
+    }
+
+    .video-cont iframe {
+        position: relative;
+        width: 672px;
+        height: 378px;
+        display: inline-block;
+    }
+}
+
+@import 'css/footer';
+
+@media (min-width: 520px){
+    @import 'css/footermedium';
+}
+
+@media (min-width: 910px) {
+    @import 'css/allwide';
+}
+
+
+
+
+

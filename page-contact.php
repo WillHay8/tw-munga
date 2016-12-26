@@ -6,7 +6,8 @@
 <?php get_header(); ?>
 <div class="page-wrapper other-page">
 	<div class="content-area">
-		<div class="site-main">
+		<div class="site-main contact">
+
 			<span class="anchor" id="content-start"></span>
 			<?
 			if(have_posts()):
