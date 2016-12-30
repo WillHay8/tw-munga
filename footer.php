@@ -2,8 +2,8 @@
 					<div class="footer-contents">
 						<a href="/munga">
 						<div class="logo-cont">
-							<a href="/munga">
-							<img src="/munga/wp-content/uploads/2016/12/Tunbridge-Wells-Munga-logo-grey-1.png"/>
+							<a href="/wordpress">
+							<img src="/wordpress/wp-content/uploads/2016/12/Tunbridge-Wells-Munga-logo-grey.png"/>
 							</a>
 						</div>
 						<div class="footer-menu-cont">

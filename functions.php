@@ -1,4 +1,8 @@
 <?php
+@ini_set( 'upload_max_size' , '5M' );
+@ini_set( 'post_max_size', '5M');
+@ini_set( 'max_execution_time', '120' );
+
 function twmunga_setup(){
  	add_theme_support('title-tag');
 
@@ -32,6 +36,7 @@ function twmunga_setup(){
 
 	register_sidebar(array('name' => 'main-sidebar'));
 	register_sidebar(array('name' => 'footer-contact'));
+
  }
 
  add_action('after_setup_theme', 'twmunga_setup');

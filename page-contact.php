@@ -9,7 +9,7 @@
 		<div class="site-main contact">
 
 			<span class="anchor" id="content-start"></span>
-			<?
+			<?php
 			if(have_posts()):
 				while(have_posts()):
 					the_post();

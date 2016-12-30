@@ -15,8 +15,8 @@
 					<div class="app-bar-contents">
 						<div class="logo-cont">
 							<a href="/munga">
-							<img id="white-logo" src="/munga/wp-content/uploads/2016/12/Tunbridge-Wells-Munga-logo-white.png"/>
-							<img id="blue-logo" src="/munga/wp-content/uploads/2016/12/Tunbridge-Wells-Munga-logo-blue.png"/>
+							<img id="white-logo" src="/wordpress/wp-content/uploads/2016/12/Tunbridge-Wells-Munga-logo-white.png"/>
+							<img id="blue-logo" src="/wordpress/wp-content/uploads/2016/12/Tunbridge-Wells-Munga-logo-blue.png"/>
 							</a>
 						</div>
 					
@@ -42,8 +42,8 @@
 				<?php endif; ?>
 				<div class="header-img-cont">
 				<?php if(get_header_image()): ?>
-					<img src="/munga/wp-content/uploads/2016/12/MUNGA-2016-group-medium.jpg" 
-					srcset="/munga/wp-content/uploads/2016/12/MUNGA-2016-group-medium.jpg 600w, <?php header_image(); ?> 900w"/>
+					<img src="/wordpress/wp-content/uploads/2016/12/MUNGA-2016-group-medium.jpg" 
+					srcset="/wordpress/wp-content/uploads/2016/12/MUNGA-2016-group-medium.jpg 600w, <?php header_image(); ?> 900w"/>
 				<?php endif; ?>
 				</div>
 			</header>
