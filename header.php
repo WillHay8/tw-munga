@@ -43,7 +43,7 @@
 				<div class="header-img-cont">
 				<?php if(get_header_image()): ?>
 					<img src="<?php echo get_template_directory_uri() . '/images/2016-group-medium.jpg' ?>" 
-					srcset="<?php echo get_template_directory_uri() . '/images/2016-group-medium.jpg' ?> 600w, <?php header_image(); ?> 900w"/>
+					srcset="<?php echo get_template_directory_uri() . '/images/2016-group-medium.jpg' ?> 600w, <?php echo get_template_directory_uri() . '/images/2016-group-large-cropped-compressed.jpg' ?> 900w"/>
 				<?php endif; ?>
 				</div>
 			</header>
