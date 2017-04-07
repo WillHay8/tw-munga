@@ -1,9 +1,8 @@
 			<div class="footer-container">
 					<div class="footer-contents">
-						<a href="/munga">
 						<div class="logo-cont">
-							<a href="/wordpress">
-							<img src="/wordpress/wp-content/uploads/2016/12/Tunbridge-Wells-Munga-logo-grey.png"/>
+							<a href="<?php echo get_site_url() ?>">
+							<img src="<?php echo get_template_directory_uri() . '/images/tunbridge-wells-munga-logo-grey.png'; ?>"/>
 							</a>
 						</div>
 						<div class="footer-menu-cont">
@@ -21,7 +20,7 @@
 					</div>
 					<div class="copyright-cont">
 						
-						<a class="copyright" href="mailto:williamfmhay@gmail.com?subject=Websites">&copy; Will Hay <?=date("Y")?></div>
+						<a class="copyright" href="mailto:williamfmhay@gmail.com?subject=Websites">&copy; Will Hay <?=date("Y")?></div></a>
 					</div>
 				</div>
 			</div>

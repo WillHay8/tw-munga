@@ -7,6 +7,7 @@
 <div class="page-wrapper">
 	<div class="content-area">
 		<div class="site-main">
+			<span class="anchor" id="content-start"></span>
 			<?php
 			if(have_posts()):
 				while(have_posts()):
@@ -20,7 +21,8 @@
 			<h2>Latest News</h2>
 			<?php
 			$news_posts_query = new WP_Query(array(
-				'category_name' => 'news'));
+				'category_name' => 'news',
+				'posts_per_page' => 3));
 			if($news_posts_query->have_posts()):
 				while($news_posts_query->have_posts()):
 					$news_posts_query->the_post(); ?>

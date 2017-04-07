@@ -6,10 +6,10 @@ jQuery( document ).ready( function( $ ) {
     $('.menu-toggle-cont').click(function(){
         $siteMenu = $('#site-header-menu');
         if($siteMenu.css('display') == 'none'){
-            $siteMenu.css('display','block');
+            $siteMenu.slideDown(700);
         }        
         else{
-             $siteMenu.css('display','none');
+             $siteMenu.slideUp(700);
         }
 });
 } );

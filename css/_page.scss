@@ -5,7 +5,7 @@
 
 .home .site-main {
     padding: 0.2em 0.5em;
-    box-shadow: 1px 1px 12px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
 }
 
 .anchor {
@@ -42,7 +42,7 @@
 article.news-post, .sidebar-cont .widget {
     margin: 3vw 0;
     padding: 0.2em 0.5em;
-    box-shadow: 1px 1px 12px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
     h3 { 
         margin: 0.2em 0;
     }
@@ -80,5 +80,49 @@ article.news-post, .sidebar-cont .widget {
     img {
         width: 60%;
         height: auto;
+    }
+}
+
+@media (min-width: 700px) {
+    .site-wrapper {
+        padding-bottom: 20.5vw;
+    }
+
+    .page-wrapper {
+        .sidebar-cont {
+            column-count: 2;
+            column-gap: 1em;
+            li {
+                width: 100%;
+                height: auto;
+                margin: 0 0 0.5em 0;
+                display: inline-block;
+            }
+        }
+
+
+    }
+
+        //about
+    .page {
+        p img {
+            width: 50%;
+            float: left;
+            margin: 0.5em;
+            display: inline-block;
+            position: relative;
+        }
+        .page-wrapper {
+            margin-bottom: 5vw;
+        }
+    }
+
+    .contact {
+        .contact-details, .contact-photo {
+            display: table-cell;
+            width: 48%;
+            vertical-align: middle;
+        }
+
     }
 }

@@ -5,7 +5,7 @@ $dark-blue: #03A;
 $black: #000;
 $grey: #555;
 $light-grey: #BBB;
-
+ 
 // globals
 html, body {
     background-color: $white;
@@ -31,20 +31,7 @@ li{
     list-style-type: none;
 }
 
-@import 'css/header';
-
-@media (min-width: 600px) {
-    @import 'css/headermedium';
-}
-
-@media (min-width: 800px) {
-    @import 'css/headerwide';
-}
-
-@import 'css/page';
-
 @media (min-width: 700px) {
-    @import 'css/pagemedium';
     .video-cont {
         text-align: center;
         padding-bottom: 378px;
@@ -58,16 +45,16 @@ li{
     }
 }
 
+@import 'css/header';
+
+@import 'css/page';
+
 @import 'css/footer';
-
-@media (min-width: 520px){
-    @import 'css/footermedium';
-}
-
+ 
 @media (min-width: 910px) {
     @import 'css/allwide';
 }
-
+ 
 
 
 

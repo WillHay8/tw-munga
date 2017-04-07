@@ -86,3 +86,86 @@
         width: 100%;
     }
 }
+
+@media (min-width: 600px) {
+    .app-bar {
+        background-color: $white;
+        position: relative;
+        color: $light-blue;
+
+        .logo-cont {
+            width: 11%;
+            #blue-logo{
+                display: inline;
+            }
+            #white-logo {
+                display: none;
+            }
+        }
+
+        .site-title-cont {
+            width: 76%;
+            .site-title {
+                font-size: 3.4vw;
+                width: 96%;
+            }
+        }
+
+        .menu-toggle-cont {
+            font-size: 7vw;
+            width: 13%;
+        }
+    }
+
+    .site-header-menu {
+        position: absolute;
+        background-color: $white;
+        margin-top: 0;
+
+        ul li a {
+            color: $light-blue;
+        }
+    }
+
+    .header-img-cont {
+        padding-top: 0;
+    }
+}
+
+@media (min-width: 800px) {
+    .app-bar {
+        .menu-toggle-cont {
+            display: none;
+        }
+    }
+    .site-header-menu {
+        display: inline-block !important;
+        position: absolute;
+        margin: 10px 5px 0 auto;
+        width: initial;
+        top: 0;
+        right: 0;
+        box-shadow: none;
+        z-index: 2;
+        background-color: transparent;
+
+        ul {
+            float: left;
+            li {
+                display: inline-block;
+                float: left;
+                width: initial;
+                border: none;
+                border-right: 1px solid $light-blue;
+                font-size: 1em;
+                a {
+                    width: initial;
+                    padding: 0.3em;
+                }
+            }
+            li:last-child {
+                border-right: none;
+            }
+        }  
+    }
+}

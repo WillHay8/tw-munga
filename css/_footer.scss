@@ -53,5 +53,28 @@
     }
 }
 
+@media (min-width: 520px){
+    .footer-container {
+    
+        .footer-menu-cont {
+            width: 47%;
+            padding: 1%;
+        }
 
+        .copyright-cont {
+            display: table-cell;
+            width: 30%;
+            vertical-align: bottom;
+            text-align: right;
+            position: relative;
+            padding: 1%;
+        }
+
+        .footer-menu-cont .footer-navigation {
+            display: table;
+            width:  250px;
+            margin: auto;
+        }
+    }
+}
 
