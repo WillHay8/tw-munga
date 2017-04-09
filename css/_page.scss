@@ -15,10 +15,11 @@
     margin-top: -19.5vw;
 }
 
-.site-main p img {
+.site-main p img, article p img {
     width: 100%;
     height: auto;
 }
+
 
 .video-cont {
     position: relative;
@@ -106,7 +107,8 @@ article.news-post, .sidebar-cont .widget {
         //about
     .page {
         p img {
-            width: 50%;
+            width: 65%;
+            height: auto;
             float: left;
             margin: 0.5em;
             display: inline-block;

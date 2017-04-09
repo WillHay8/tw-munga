@@ -1,6 +1,6 @@
 console.log("functions.js");
 
-jQuery( document ).ready( function( $ ) {
+jQuery(document).ready(function($) {
     console.log("document ready");
     // $() will work as an alias for jQuery() inside of this function
     $('.menu-toggle-cont').click(function(){
@@ -11,5 +11,15 @@ jQuery( document ).ready( function( $ ) {
         else{
              $siteMenu.slideUp(700);
         }
+    });
+
+
+    function scrollToContentStart(){
+        console.log("scrollToContentStart");
+        var aTag = $('#content-start');
+        $('html,body').animate({scrollTop: aTag.offset().top + 200},'slow', function(){console.log("complete")});
+    }
+    if(window.outerWidth > 1024 && $('.home').length < 1){
+        scrollToContentStart();
+    }
 });
-} );

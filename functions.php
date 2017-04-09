@@ -44,7 +44,7 @@ function twmunga_setup(){
  function twmunga_scripts(){
  	wp_enqueue_style('twmunga-style', get_stylesheet_uri());
  	wp_enqueue_script('jquery', 'jquery');
- 	wp_enqueue_script( 'twmunga-script', get_template_directory_uri() . '/js/functions.js', array('jquery'));
+ 	wp_enqueue_script( 'twmunga-script', get_template_directory_uri() . '/js/main.js', array('jquery'));
  }
 
 

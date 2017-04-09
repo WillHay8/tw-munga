@@ -21,7 +21,7 @@
 						</div>
 					
 						<div class="site-title-cont">
-							<div class="site-title">Tunbridge Wells<br/>Model United Nations General Assembley</div>
+							<div class="site-title">Tunbridge Wells<br/>Model United Nations General Assembly</div>
 						</div>
 						<?php
 						if(has_nav_menu('top')): ?>
@@ -41,10 +41,8 @@
 					
 				<?php endif; ?>
 				<div class="header-img-cont">
-				<?php if(get_header_image()): ?>
 					<img src="<?php echo get_template_directory_uri() . '/images/2016-group-medium.jpg' ?>" 
 					srcset="<?php echo get_template_directory_uri() . '/images/2016-group-medium.jpg' ?> 600w, <?php echo get_template_directory_uri() . '/images/2016-group-large-cropped-compressed.jpg' ?> 900w"/>
-				<?php endif; ?>
 				</div>
 			</header>
 		

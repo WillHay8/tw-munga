@@ -4,7 +4,7 @@
 */
 ?>
 <?php get_header(); ?>
-<div class="page-wrapper">
+<div class="page-wrapper home">
 	<div class="content-area">
 		<div class="site-main">
 			<span class="anchor" id="content-start"></span>
@@ -21,7 +21,7 @@
 			<h2>Latest News</h2>
 			<?php
 			$news_posts_query = new WP_Query(array(
-				'category_name' => 'news',
+				'cat_id' => 1,
 				'posts_per_page' => 3));
 			if($news_posts_query->have_posts()):
 				while($news_posts_query->have_posts()):
@@ -31,7 +31,9 @@
 						<h4 class="post-date"><?php the_date(); ?></h4>
 						<p><?php the_content(); ?></p>
 					</article>
-			<?php endwhile;
+			<?php endwhile; ?>
+			<a href="<?=get_category_link(1)?>">See more news</a>
+			<?php
 			else:
 				echo '<p>no new updates</p>';
 			endif;
