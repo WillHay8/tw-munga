@@ -14,7 +14,7 @@
 				<div class="app-bar">
 					<div class="app-bar-contents">
 						<div class="logo-cont">
-							<a href="/munga">
+							<a href="<?=get_site_url()?>">
 							<img id="white-logo" src="<?php echo get_template_directory_uri() . '/images/tunbridge-wells-munga-logo-white.png'; ?>"/>
 							<img id="blue-logo" src="<?php echo get_template_directory_uri() . '/images/tunbridge-wells-munga-logo-blue.png'; ?>"/>
 							</a>

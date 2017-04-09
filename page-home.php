@@ -32,7 +32,7 @@
 						<p><?php the_content(); ?></p>
 					</article>
 			<?php endwhile; ?>
-			<a href="<?=get_category_link(1)?>">See more news</a>
+			<div class="full-width"><a class="read-more" href="<?=get_category_link(1)?>">See more news</a></div>
 			<?php
 			else:
 				echo '<p>no new updates</p>';
